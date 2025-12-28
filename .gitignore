@@ -3,6 +3,12 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# SSL/TLS Certificates - Never commit private keys or certificates
+*.pem
+*.key
+*.crt
+*.cert
+
 # C extensions
 *.so
 
