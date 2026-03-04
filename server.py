@@ -192,5 +192,3 @@ if __name__ == "__main__":
     # Start the server with default settings (localhost:8443)
     start_server()
 
-# Generate self-signed certificate 
-# openssl req -x509 -newkey rsa:2048 -keyout key.pem -out cert.pem -days 365 -nodes
